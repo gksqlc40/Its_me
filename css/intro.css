@@ -1,0 +1,56 @@
+.intro__body {
+  text-align: center;
+  margin-top: 180px;
+}
+
+.intro__main {
+  font-size: 35px;
+  margin: 40px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+}
+
+#intro__first {
+  animation: 2s first__animation ease-out;
+}
+
+@keyframes first__animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#intro__second {
+  animation: 4s second__animation ease-out;
+}
+
+@keyframes second__animation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#intro__third {
+  animation: 8s third__animation ease-out;
+}
+
+@keyframes third__animation {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  65% {
+    opacity: 1;
+  }
+}
