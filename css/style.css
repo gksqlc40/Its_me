@@ -1,3 +1,8 @@
 @import "reset.css";
 @import "intro.css";
 @import "index.css";
+@import "music.css";
+
+a:link {
+  text-decoration: none;
+}

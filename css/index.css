@@ -9,13 +9,32 @@
 .index__myFavorite {
   margin: 100px;
   display: block;
+  cursor: pointer;
+  animation: 3s myFavoriteAM ease-in-out;
 }
+
+@keyframes myFavoriteAM {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+}
+.index__myFavorite,
+.myFavorite__bottom {
+  color: black;
+}
+
 #index__me {
   margin: 100px;
   font-size: 50px;
   font-family: "Roboto Slab", serif;
   font-weight: 400;
-  cursor: pointer;
   animation: 2s meAM ease-in-out;
 }
 
@@ -32,4 +51,25 @@
 #index__myFavorite__bottom {
   display: flex;
   justify-content: space-around;
+}
+
+.index__Description {
+  text-align: center;
+  margin-top: 0px;
+  font-size: 20px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  animation: 4s DesAM ease-in;
+}
+
+@keyframes DesAM {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
