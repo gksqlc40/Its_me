@@ -26,7 +26,8 @@
   }
 }
 .index__myFavorite,
-.myFavorite__bottom {
+.myFavorite__bottom,
+#index__me {
   color: black;
 }
 

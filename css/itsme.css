@@ -1,0 +1,20 @@
+.itsme__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.itsme__img__1 {
+  max-width: 450px;
+  max-height: 450px;
+}
+
+.sns__link {
+  margin-top: 40px;
+}
+
+.sns__btn {
+  font-size: 40px;
+  padding: 50px;
+}

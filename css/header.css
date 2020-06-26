@@ -1,0 +1,21 @@
+.main__body {
+  margin-top: 30px;
+  margin-bottom: 150px;
+}
+
+.menu__header {
+  display: flex;
+  font-size: 30px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  margin-left: 15px;
+  margin-bottom: 50px;
+}
+
+.menu__header .menu__head {
+  padding-left: 13px;
+}
+
+.menu__header a {
+  color: black;
+}
