@@ -2,4 +2,4 @@ function toIndexLink() {
   window.location.href = "index.html";
 }
 
-setTimeout(toIndexLink, 6500);
+setTimeout(toIndexLink, 5000);

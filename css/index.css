@@ -10,7 +10,7 @@
   margin: 100px;
   display: block;
   cursor: pointer;
-  animation: 3s myFavoriteAM ease-in-out;
+  animation: 2s myFavoriteAM ease-in-out;
 }
 
 @keyframes myFavoriteAM {
@@ -27,16 +27,16 @@
 }
 .index__myFavorite,
 .myFavorite__bottom,
-#index__me {
+.index__me {
   color: black;
 }
 
-#index__me {
+.index__me {
   margin: 100px;
   font-size: 50px;
   font-family: "Roboto Slab", serif;
   font-weight: 400;
-  animation: 2s meAM ease-in-out;
+  animation: 1s meAM ease-in-out;
 }
 
 @keyframes meAM {
@@ -60,7 +60,7 @@
   font-size: 20px;
   font-family: "Roboto Slab", serif;
   font-weight: 400;
-  animation: 4s DesAM ease-in;
+  animation: 2.5s DesAM ease-in;
 }
 
 @keyframes DesAM {
