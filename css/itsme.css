@@ -6,8 +6,30 @@
 }
 
 .itsme__img {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   max-width: 600px;
-  max-height: 600px;
+  max-height: 400px;
+  width: 100%;
+  opacity: 0;
+  animation: slowly 4s ease-in-out;
+}
+@keyframes slowly {
+  0% {
+    opacity: 0.4;
+  }
+
+  50% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 .sns__link {
@@ -27,4 +49,9 @@
   width: 100%;
   padding: 50px 0;
   text-align: center;
+}
+
+.showing {
+  display: flex;
+  opacity: 1;
 }
